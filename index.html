@@ -5,16 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script defer src="main.js"></script>
+
     <link rel="stylesheet" href="style.css">
+   <script defer src="main.js"></script>
     <title>Tab-Control</title>
 </head>
 <body>
 <div class="container">
     <ul>
-        <li id="tab-1" class="active">Tab 1</li>
-        <li id="tab-2">Tab 1</li>
-        <li id="tab-3">Tab 1</li>
+        <li id="tab-1" onclick="showTab(1)" class="active">Tab 1</li>
+        <li id="tab-2" onclick="showTab(2)">Tab 2</li>
+        <li id="tab-3" onclick="showTab(3)">Tab 3</li>
     </ul>
 
     <div class="tab-contents">
