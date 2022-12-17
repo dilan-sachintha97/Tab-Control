@@ -9,11 +9,13 @@
     display: none;
 }
 .active{
-    color: red;
+    color: white;
+    background-color: #27ae60;
     font-weight: bold;
 }
 
 .container{
+    padding-top: 30px;
     width: 80%;
     margin: auto;
     /*border: 1px solid red;*/
