@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .show{
     display: block;
 }
@@ -8,3 +12,43 @@
     color: red;
     font-weight: bold;
 }
+
+.container{
+    width: 80%;
+    margin: auto;
+    /*border: 1px solid red;*/
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    /*border: 1px solid red;*/
+    width: 100px;
+    padding: 10px 5px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+}
+
+.tab-contents{
+    margin-top: 30px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.tab-contents h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tab-contents p{
+    text-align: justify;
+}
+
+
+
